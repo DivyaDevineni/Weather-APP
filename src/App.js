@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Mapcontainer from "./components/map";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div class="header">
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://www.speedlinesolutions.com"
+          rel=" noopener"
+          linktext=""
         >
-          Learn React
+          <img
+            src="https://www.speedlinesolutions.com/hubfs/Speedline-logo-png.png"
+            alt="SpeedLine Solution Inc."
+            title="Speedline-logo-png.png"
+          />
         </a>
-      </header>
+        <h1>Weather App</h1>
+      </div>
+      <p>Click on the pointers of map to know the wheather conditions</p>
+      <Mapcontainer />
     </div>
   );
 }
