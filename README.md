@@ -7,13 +7,17 @@
 - The API key created dialog displays your newly created API key.
 - Click Close.
 
-## config API key
+## configure API key
 
 Get a google maps key from above process and use it in .env.development.local to integrate google maps.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs the required node modules
 
 ### `npm start`
 
