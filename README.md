@@ -1,3 +1,9 @@
+- Displays the current weather conditions of particular cities in BC super imposed on a map
+- Used Google maps to impose cities on map
+- Used weather data available from Environment Canada
+- When clicked on particular city, shows the current weather conditions of that city
+
+
 ## To get an API key:
 
 - Go to the Google Cloud Platform Console. (https://console.cloud.google.com/)
@@ -6,6 +12,7 @@
 - On the Credentials page, click Create credentials > API key.
 - The API key created dialog displays your newly created API key.
 - Click Close.
+
 
 ## configure API key
 
